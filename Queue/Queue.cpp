@@ -6,15 +6,15 @@ struct QueueNode             //Node of queue
 {
 	int data;
 	struct QueueNode *next;
-}*front,*rear;				      //front and rear node reference of the queue
+}*front,*rear;				//front and rear node reference of the queue
 
-void initialize()			      //intializing front and rear
+void initialize()			//intializing front and rear
 {
 	front=NULL;
 	rear=NULL;
 }
 
-void menu()					        //menu to select an action to perform
+void menu()					//menu to select an action to perform
 {
 	cout<<"Enter 1 to insert an element to the queue"<<endl;
 	cout<<"Enter 2 to remove an item from the queue"<<endl;
@@ -23,7 +23,7 @@ void menu()					        //menu to select an action to perform
 	cout<<"Enter your choice: ";
 }
 
-void insert(int key)				         	 //insert an element in the queue
+void insert(int key)					//insert an element in the queue
 {
 	QueueNode *temp=new QueueNode();    //temporary node to store the given element
 	temp->data=key;
