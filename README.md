@@ -1,8 +1,5 @@
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/ashishkrishan1995/dataStructures/master/LICENSE)
-[![GitHub forks](https://img.shields.io/github/forks/ashishkrishan1995/dataStructures.svg)](https://github.com/ashishkrishan1995/dataStructures/network)
-[![GitHub issues](https://img.shields.io/github/issues/ashishkrishan1995/dataStructures.svg)](https://github.com/ashishkrishan1995/dataStructures/issues)
-[![GitHub stars](https://img.shields.io/github/stars/ashishkrishan1995/dataStructures.svg)](https://github.com/ashishkrishan1995/dataStructures/stargazers)
 # Data Structures
+
 This repository contains the various progams on Data Structures and Algorithms using C and C++.
 
 Further, it contains the programs which are commonly asked in the technical interviews of companies like Microsoft, Amazon, Flipkart, DE Shaw etc.
@@ -14,10 +11,17 @@ A linked lists are simple data structures where each object links to the object 
 
 ## Arrays
 
-1D Arrays are like linked lists, but where you can access each element directly. This is great if you know what you want out of it, but no better if you need to search through until you find a match. Higher order arrays (2D, 3D, 4D, etc...) give greater granularity and can help if you can give meaningful ordering to each new dimension. ex name on dimension 1 and age on dimension 2.
+1D Arrays are like Linked Lists, but where you can access each element directly. This is great if you know what you want out of it, but no better if you need to search through until you find a match. Higher order arrays (2D, 3D, 4D, etc...) give greater granularity and can help if you can give meaningful ordering to each new dimension. ex name on dimension 1 and age on dimension 2.
+
+## Queues ##
+Queues are data structures that you insert elements in begin and remove elements in the end. It follow the principle FIFO, "First in, First Out". Queues can be implemented using 1D Arrays and Linked Lists. Queues are common in classical algorithms, like BFS.
+
+## Stacks ##
+Stacks are data structures that you insert elements in begin and remove elements in begin, you call this part the top of stack. The principle that stacks follows are LIFO, "Last in, First Out". Stacks can be implemented using 1D Arrays and Linked Lists, too.
 
 ## Resources
 [Open Data Structures](http://opendatastructures.org/)
+[VisuaAlgo](https://visualgo.net/en)
 
 ## Authors
 
