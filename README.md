@@ -16,6 +16,20 @@ A linked lists are simple data structures where each object links to the object 
 
 1D Arrays are like linked lists, but where you can access each element directly. This is great if you know what you want out of it, but no better if you need to search through until you find a match. Higher order arrays (2D, 3D, 4D, etc...) give greater granularity and can help if you can give meaningful ordering to each new dimension. ex name on dimension 1 and age on dimension 2.
 
+## Stacks
+
+A stack is a container of objects that are inserted and removed according to the last-in first-out (LIFO) principle. In the pushdown stacks only two operations are allowed: push the item into the stack, and pop the item out of the stack. A stack is a limited access data structure - elements can be added and removed from the stack only at the top. push adds an item to the top of the stack, pop removes the item from the top. A helpful analogy is to think of a stack of books; you can remove only the top book, also you can add a new book on the top.
+
+## Queues
+
+Queues are data structures that follow the First In First Out (FIFO) i.e. the first element that is added to the queue is the first one to be removed.
+Elements are always added to the back and removed from the front. Think of it as a line of people waiting for a bus. The person who is at the beginning of the line is the first one to enter the bus.
+
+## Trees
+
+A tree is a collection of nodes connected by directed (or undirected) edges. A tree is a nonlinear data structure, compared to arrays, linked lists, stacks and queues which are linear data structures. A tree can be empty with no nodes or a tree is a structure consisting of one node called the root and zero or one or more subtrees. 
+
+
 ## Resources
 [Open Data Structures](http://opendatastructures.org/) <br>
 [Data Structures on hackerearth](https://www.hackerearth.com/practice/) <br>
