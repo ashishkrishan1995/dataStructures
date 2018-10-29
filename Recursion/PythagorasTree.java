@@ -1,7 +1,7 @@
 import java.awt.*;
 import javax.swing.*;
 
-public class Opdracht2_8 extends JPanel
+public class PythagorasTree extends JPanel
 {
 
     static final int width = 1100;
@@ -101,7 +101,7 @@ public class Opdracht2_8 extends JPanel
     {
         JFrame frame = new JFrame("AD Boom van Pythagoras");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        Opdracht2_8 panel = new Opdracht2_8();
+        PythagorasTree panel = new PythagorasTree();
         frame.setContentPane(panel);
         frame.setSize(width, height);
         frame.setVisible(true);
