@@ -9,6 +9,8 @@ struct node {
 
 void createList(int n);
 void reverseList();
+void reverseList2();
+void reverseList3();
 void displayList();
 
 
@@ -112,6 +114,35 @@ void reverseList()
 
         printf("SUCCESSFULLY REVERSED LIST\n");
     }
+}
+
+/*Reverse Function using 3 sliding pointers*/
+
+void ReverseList2(struct Node *p)
+{
+  struct Node *q=NULL,*r=NULL;
+  while(p!=NULL)
+      {
+        r=q;
+        q=p;
+        p=p->next;
+        q->next=r;
+      }
+  head=q;
+  printf("SUCCESSFULLY REVERSED LIST\n");
+}
+
+/*Reverse Function using recurssive function*/
+
+void ReverseList3(struct Node *q,struct Node *p)
+{
+  if(p)
+  {
+    Reverse3(p,p->next);
+    p->next=q;
+  }
+  else
+  head=q;
 }
 
 
